@@ -9,6 +9,18 @@
  */
 public abstract class Piece {
     
+    int x;
+    int y;
+    int color;
+    
     abstract boolean isValidMove();
     
+    abstract int getX();
+    
+    abstract int getY();
+    
+    abstract void setX();
+    
+    abstract void setY();
+   
 }
