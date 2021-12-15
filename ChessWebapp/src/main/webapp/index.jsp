@@ -1,3 +1,10 @@
+<!--
+Chess Game - index.jsp
+Authors: Brian, Nolan, and Ryan
+Homepage for Chess Game
+-->
+
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -13,6 +20,6 @@
         <!--<a href="http://localhost:8080/ChessWebapp/game.html" id="StartBtn">
             <button>Start Game</button>    
         </a>-->
-        <div><button id="StartBtn" onclick="document.location='http://localhost:8080/ChessWebapp/game.html'" style="width:300px">Start Game</button></div>
+        <div><button id="StartBtn" onclick="document.location='http://localhost:8080/ChessWebapp/game.jsp'" style="width:300px">Start Game</button></div>
     </body>
 </html>

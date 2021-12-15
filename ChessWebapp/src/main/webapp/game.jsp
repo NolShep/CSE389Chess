@@ -1,8 +1,15 @@
+<!--
+Chess Game - game.jsp
+Authors: Brian, Nolan, and Ryan
+Game page for Chess Game
+-->
+
 <!DOCTYPE html>
 <html>
   <head>
     <title>Game</title>
     <link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="js/chessboard-1.0.0.min.js"></script>
     <script defer src="./index.js"></script>

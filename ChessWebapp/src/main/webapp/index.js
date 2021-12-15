@@ -1,7 +1,9 @@
-/* 
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/JavaScript.js to edit this template
- */
+/*
+Chess Game - index.js
+Authors: Brian, Nolan, and Ryan
+JavaScript backend for Chess Game
+*/
+
 
 var config = {
     position: 'start',
