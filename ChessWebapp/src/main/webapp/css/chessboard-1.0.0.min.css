@@ -1,13 +1,74 @@
 /*! chessboard.js v1.0.0 | (c) 2019 Chris Oakman | MIT License chessboardjs.com/license */
 .clearfix-7da63{clear:both}.board-b72b1{border:2px solid #404040;box-sizing:content-box}.square-55d63{float:left;position:relative;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.white-1e1d7{background-color:#f0d9b5;color:#b58863}.black-3c85d{background-color:#b58863;color:#f0d9b5}.highlight1-32417,.highlight2-9c5d2{box-shadow:inset 0 0 3px 3px #ff0}.notation-322f9{cursor:default;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;position:absolute}.alpha-d2270{bottom:1px;right:3px}.numeric-fc462{top:2px;left:2px}
 
+/* Center the chess board */
 #board {
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Reset button config */
+#ResetBtn {
+    display: table;
+    margin: 0 auto;
+    background-color: darkslategray;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+
+/* Back to Home button config */
+#StartBtn {
     display: table;
     margin: 0 auto;
 }
 
-#ResetBtn {
+/* Center upper text */
+#LP {
     display: table;
     margin: 0 auto;
 }
-      
+
+#CG {
+    display: table;
+    margin: 0 auto;
+}
+
+/* Adjust default font size for h1 headers */
+h1 {
+    display: table;
+    margin: 0 auto;
+    font-size: 200px;
+    color: white;
+    margin-top: 50px;
+}
+
+h2 {
+    display: table;
+    margin: 0 auto;
+    font-size: 100px;
+    color: white;
+}
+
+h3 {
+    display: table;
+    margin: 0 auto;
+    font-size: 70px;
+    color: white;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+h4 {
+    display: table;
+    margin: 0 auto;
+    font-size: 50px;
+    color: white;
+    margin-top: 0.30em;
+    margin-bottom: 0.30em;
+}
+
+body {
+    background: lightsteelblue;
+}
+

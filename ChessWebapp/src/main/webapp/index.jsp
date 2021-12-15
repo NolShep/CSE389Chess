@@ -9,11 +9,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/chessboard-1.0.0.min.css">
         <title>Home</title>
     </head>
     <body>
-        <h1>Chess Game</h1>
-        <a href="http://localhost:8080/ChessWebapp/game.html">
+        <div id="CG"><h1>Chess Game</h1></div>
+        <h4>By Brian, Nolan, and Ryan</h4>
+        <a href="http://localhost:8080/ChessWebapp/game.html" id="StartBtn">
             <button>Start Game</button>    
         </a>
     </body>
