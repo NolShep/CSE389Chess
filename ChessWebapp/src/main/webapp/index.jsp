@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : Dec 11, 2021, 6:47:37 PM
-    Author     : 12bbo
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -13,10 +7,12 @@
         <title>Home</title>
     </head>
     <body>
+       <!--<div class="rectangle"></div>-->
         <div id="CG"><h1>Chess Game</h1></div>
         <h4>By Brian, Nolan, and Ryan</h4>
-        <a href="http://localhost:8080/ChessWebapp/game.html" id="StartBtn">
+        <!--<a href="http://localhost:8080/ChessWebapp/game.html" id="StartBtn">
             <button>Start Game</button>    
-        </a>
+        </a>-->
+        <div><button id="StartBtn" onclick="document.location='http://localhost:8080/ChessWebapp/game.html'" style="width:300px">Start Game</button></div>
     </body>
 </html>
