@@ -5,13 +5,12 @@ public class ChessPiece{
    int xCord, yCord;
    int xCordMove, yCordMove;
    
-   //0 is white 1 is black
-   int color;
-   
+   String color;
    String name;
+   
    LinkedList<ChessPiece> pieceList = new LinkedList<>();
    
-   public ChessPiece(int xCord, int yCord, int color, String name, LinkedList<ChessPiece> pieceList){
+   public ChessPiece(int xCord, int yCord, String color, String name, LinkedList<ChessPiece> pieceList){
       this.xCord = xCord;
       this.yCord = yCord;
       this.color = color;
